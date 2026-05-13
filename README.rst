@@ -8,7 +8,7 @@ A ROS 2 package that provides a RTDE (Real Time Data Exchange) publisher for Uni
    This package is currently in an early development stage. At this point, we don't make any
    guarantees about ROS API stability, so the interface types for published data might change in the
    future. Hence, this package is currently not available as a pre-built binary in any ROS
-   distribution, and users need to :ref:`build it from source <ur_rtde_pub/installation>`.
+   distribution, and users need to `build it from source <https://docs.universal-robots.com/Universal_Robots_ROS_Documentation/rolling/doc/ur_rtde_ros2_publisher/doc/installation.html>`_.
 
 Usage
 -----
@@ -22,7 +22,7 @@ The node is started using the provided launch file:
      output_recipe:='["payload", "robot_mode"]' \
      rtde_frequency:=125
 
-See the documentation's :ref:`ur_rtde_pub/usage` section for more details on how to run the node and verify its operation.
+See the documentation's `usage <https://docs.universal-robots.com/Universal_Robots_ROS_Documentation/rolling/doc/ur_rtde_ros2_publisher/doc/usage.html>`_ section for more details on how to run the node and verify its operation.
 
 Parameters
 ^^^^^^^^^^
